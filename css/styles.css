@@ -1,1 +1,24 @@
 /* YOUR STYLES */
+
+/* TYPOGRAPHY */
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  colors  */
+.cd-header
+{
+    background-color: #a10022;
+}
+
+/*  VIEWS  */
+.grid li.mix
+{
+    background: red;
+}
+
+.list li.mix
+{
+    background: blue;
+}
