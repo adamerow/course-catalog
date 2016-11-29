@@ -280,7 +280,7 @@ xgallery
     padding: 40px 3%;
   }
   .cd-gallery ul {
-    text-align: justify;
+    text-align: left;
   }
   .cd-gallery ul:after {
     content: "";

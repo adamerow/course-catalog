@@ -5,6 +5,9 @@ $('#grid').click( function()
     $('.cd-gallery').removeClass('list');
     // Add ONLY 'grid' class
     $('.cd-gallery').addClass('grid');
+    
+    $('.cd-gallery h3').show();
+    $('.cd-gallery p').show();
 });
 
 
@@ -15,4 +18,7 @@ $('#list').click( function()
     $('.cd-gallery').removeClass('grid');
     // Add ONLY 'grid' class
     $('.cd-gallery').addClass('list');
+    
+    $('.cd-gallery h3').hide();
+    $('.cd-gallery p').hide();
 });

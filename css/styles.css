@@ -12,13 +12,48 @@ body
     background-color: #a10022;
 }
 
+/***********/
 /*  VIEWS  */
+/***********/
+
 .grid li.mix
 {
-    background: red;
+    background: none;
 }
 
 .list li.mix
 {
-    background: blue;
+    background: white;
+}
+
+/**********************/
+/*     TYPOGRAPHY     */
+/**********************/
+
+h1
+{
+    font-size: 1.5em;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+h3
+{
+    font-size: 1em;
+}
+
+.prereqs
+{
+    font-style: italic;
+}
+
+p
+{
+    margin-top: 10px;
+    font-size: .8em;
 }
